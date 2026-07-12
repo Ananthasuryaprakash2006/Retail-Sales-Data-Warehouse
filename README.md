@@ -17,9 +17,11 @@ The **Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting
 The architecture begins with retail sales datasets collected from the **Global Superstore** and **Walmart Sales Forecast** datasets in CSV format. A Python-based ETL pipeline extracts, cleans, transforms, and loads the data into a SQL Server data warehouse following the **Medallion Architecture**
 
 <p align="center">
-  <img src="./Images/Data_Warehouse_Architecture.png" width="900">
+  <img src=<img width="1536" height="1024" alt="Retail sales data warehouse architecture" src="https://github.com/user-attachments/assets/2ffdf7cd-7bb5-43de-9fe5-87de75d04d7c" />
+>
 </p>
 The data warehouse is organized into three layers:
+
 - **Bronze Layer** stores raw data exactly as received from the source systems.
 - **Silver Layer** performs data cleansing, validation, standardization, and transformation to improve data quality.
 - **Gold Layer** contains business-ready data modeled as an **Enterprise Star Schema** with fact and dimension tables optimized for analytics and reporting.
@@ -33,33 +35,29 @@ This architecture enables efficient data processing, scalable analytics, accurat
 ---
 ## 📖 Project Overview
 
-The **Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting** is an end-to-end Data Engineering, Business Intelligence, and Machine Learning project developed to transform raw retail sales data into meaningful business insights and accurate sales forecasts.
+The **Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting** is an end-to-end Data Engineering project that integrates **SQL Server, Python, Power BI, and Machine Learning** to transform raw retail sales data into valuable business insights and accurate sales forecasts.
 
-The project implements a modern **Medallion Architecture (Bronze, Silver, and Gold)** using **Microsoft SQL Server** to build a scalable and enterprise-ready data warehouse. Raw retail datasets are extracted from CSV files, processed through Python-based ETL pipelines, and transformed into a well-structured **Enterprise Star Schema** optimized for analytical reporting.
+The project implements the **Medallion Architecture (Bronze, Silver, and Gold)**, develops Python-based ETL pipelines, designs an **Enterprise Star Schema**, and creates interactive **Power BI dashboards** for business analytics. A **Random Forest Regression** model is used to predict future weekly sales, enabling data-driven decision-making.
 
-Interactive dashboards are developed using **Microsoft Power BI** to provide comprehensive insights into sales performance, customer behavior, product analytics, and regional trends. These dashboards enable stakeholders to monitor key business metrics through intuitive visualizations and support data-driven decision-making.
-
-To enhance predictive analytics, a **Random Forest Regression** model is implemented using **Scikit-learn** to forecast future weekly sales. The model is evaluated using industry-standard performance metrics such as **Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score**, ensuring reliable and accurate demand forecasting.
-
-This project demonstrates practical implementation of **SQL Server, Python, ETL Pipeline Development, Data Warehousing, Enterprise Data Modeling, Power BI Dashboard Development, and Machine Learning**, making it a comprehensive portfolio project for Data Engineering, Business Intelligence, and Analytics roles.
+This project demonstrates practical skills in **Data Engineering, ETL Development, Data Warehousing, SQL, Business Intelligence, Power BI, and Machine Learning**.
 ---
 ## 🛠️ Important Links & Tools
 
 The following tools, datasets, and technologies were used to build this project.
 
-| 📊 Global Superstore Dataset | Retail sales dataset used for building the data warehouse | https://www.kaggle.com/datasets/vivek468/superstore-dataset-final |
-| 🛒 Walmart Sales Forecast Dataset | Dataset used for machine learning demand forecasting | https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast |
-| 🗄️ Microsoft SQL Server | Database used for building the Retail Sales Data Warehouse | https://www.microsoft.com/en-us/sql-server/sql-server-downloads |
-| 💻 SQL Server Management Studio (SSMS) | SQL development and database management | https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms |
-| 🐍 Python | ETL pipeline development and machine learning | https://www.python.org/ |
-| 📦 Pandas | Data cleaning and transformation | https://pandas.pydata.org/ |
-| 🔢 NumPy | Numerical computations | https://numpy.org/ |
-| 🤖 Scikit-learn | Machine Learning (Random Forest Regression) | https://scikit-learn.org/stable/ |
-| 📈 Microsoft Power BI Desktop | Interactive dashboard development | https://powerbi.microsoft.com/desktop/ |
-| 📒 Jupyter Notebook | Data exploration and ML experimentation | https://jupyter.org/ |
-| 🔀 Git | Version control | https://git-scm.com/ |
-| 🌐 GitHub | Source code hosting and collaboration | https://github.com/ |
-| 🎨 Draw.io | Architecture, ETL, and Star Schema diagrams | https://app.diagrams.net/ |
+| 📊 Global Superstore Dataset | https://www.kaggle.com/datasets/vivek468/superstore-dataset-final |
+| 🛒 Walmart Sales Forecast Dataset | https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast |
+| 🗄️ Microsoft SQL Server | https://www.microsoft.com/en-us/sql-server/sql-server-downloads |
+| 💻 SQL Server Management Studio (SSMS) | https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms |
+| 🐍 Python | https://www.python.org/ |
+| 📦 Pandas | https://pandas.pydata.org/ |
+| 🔢 NumPy | https://numpy.org/ |
+| 🤖 Scikit-learn | https://scikit-learn.org/stable/ |
+| 📈 Microsoft Power BI Desktop | https://powerbi.microsoft.com/desktop/ |
+| 📒 Jupyter Notebook | https://jupyter.org/ |
+| 🔀 Git | https://git-scm.com/ |
+| 🌐 GitHub | https://github.com/ |
+| 🎨 Draw.io | https://app.diagrams.net/ |
 ---
 ## 🚀 Project Requirements
 
@@ -69,114 +67,52 @@ The objective of this project is to design and develop a modern **Retail Sales D
 
 ---
 
+## 🚀 Project Requirements
+
 ### 📋 Functional Requirements
 
 #### 🗂️ Data Sources
-
 - Import retail sales data from CSV datasets.
-- Utilize the **Global Superstore Dataset** for sales analytics.
-- Utilize the **Walmart Sales Forecast Dataset** for demand forecasting.
-
----
+- Use the **Global Superstore** and **Walmart Sales Forecast** datasets.
 
 #### 🔄 ETL Pipeline
-
-Develop a Python-based ETL pipeline to:
-
-- Extract raw retail sales data.
-- Clean and validate the datasets.
-- Handle missing values and duplicate records.
-- Standardize data formats and column names.
+- Extract, transform, and load (ETL) retail sales data.
+- Clean, validate, and standardize datasets.
 - Load processed data into SQL Server.
 
----
-
 #### 🏗️ Data Warehouse
-
-Design a scalable Retail Sales Data Warehouse using the **Medallion Architecture**.
-
-##### Bronze Layer
-- Store raw data from source systems.
-- Preserve original datasets without modification.
-
-##### Silver Layer
-- Perform data cleansing and validation.
-- Apply business rules and data transformations.
-- Improve data consistency and quality.
-
-##### Gold Layer
-- Build an Enterprise Star Schema.
-- Create optimized Fact and Dimension tables.
-- Prepare business-ready data for reporting.
-
----
-
-#### ⭐ Data Modeling
-
-Design an Enterprise Star Schema consisting of:
-
-- FactSales_Enterprise
-- DimCustomer_Enterprise
-- DimProduct_Enterprise
-- DimLocation_Enterprise
-- DimDate_Enterprise
-
----
+- Implement the **Medallion Architecture** (Bronze, Silver, Gold).
+- Build an **Enterprise Star Schema** with Fact and Dimension tables.
 
 #### 📊 Business Intelligence
-
-Develop interactive Power BI dashboards to analyze:
-
-- Executive Sales Overview
-- Customer & Product Analytics
-- Regional Sales Performance
-- Machine Learning Forecasting Results
-
----
+- Develop interactive **Power BI** dashboards for:
+  - Executive Dashboard
+  - Customer & Product Analytics
+  - Regional Sales Analysis
+  - Demand Forecasting
 
 #### 🤖 Machine Learning
-
-Develop a demand forecasting model using **Random Forest Regression**.
-
-The model should:
-
-- Preprocess retail sales data.
-- Train and validate the forecasting model.
-- Predict future weekly sales.
-- Evaluate performance using:
-  - Mean Absolute Error (MAE)
-  - Root Mean Squared Error (RMSE)
-  - R² Score
-
----
+- Train a **Random Forest Regression** model.
+- Forecast future weekly sales.
+- Evaluate model performance using **MAE, RMSE, and R² Score**.
 
 #### 📈 Business Analytics
-
-Generate analytical insights including:
-
-- Total Sales
-- Total Profit
-- Total Orders
-- Customer Performance
-- Product Performance
-- Regional Sales Analysis
-- Category Analysis
-- Sales Trends
-- Weekly Sales Forecast
-- Future Demand Prediction
+Generate insights for:
+- Sales & Profit Analysis
+- Customer & Product Performance
+- Regional & Category Analysis
+- Sales Trends & Demand Forecasting
 
 ---
 
 ### 🎯 Expected Outcomes
 
-The completed project should provide:
-
-- A scalable Retail Sales Data Warehouse.
-- Automated Python-based ETL pipelines.
-- Enterprise Star Schema implementation.
-- Interactive Power BI dashboards.
-- Machine Learning-based demand forecasting.
-- Actionable business insights for strategic decision-making.
+- Modern Retail Sales Data Warehouse
+- Automated Python ETL Pipeline
+- Enterprise Star Schema
+- Interactive Power BI Dashboards
+- Machine Learning-Based Demand Forecasting
+- Actionable Business Insights
 ---
 ## 📂 Repository Structure
 
