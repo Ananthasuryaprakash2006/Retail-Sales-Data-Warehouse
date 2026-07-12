@@ -1,5 +1,4 @@
-## Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting
-## 📖 About the Project
+## Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting 📖
 
 The **Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting** is an end-to-end **Data Engineering and Business Intelligence** project that transforms raw retail sales data into actionable business insights and accurate sales forecasts.
 
