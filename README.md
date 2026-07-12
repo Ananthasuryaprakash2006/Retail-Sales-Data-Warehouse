@@ -1,4 +1,4 @@
-##Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting
+## Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting
 ## 📖 About the Project
 
 The **Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting** is an end-to-end **Data Engineering and Business Intelligence** project that transforms raw retail sales data into actionable business insights and accurate sales forecasts.
@@ -15,8 +15,7 @@ The **Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting
 The architecture begins with retail sales datasets collected from the **Global Superstore** and **Walmart Sales Forecast** datasets in CSV format. A Python-based ETL pipeline extracts, cleans, transforms, and loads the data into a SQL Server data warehouse following the **Medallion Architecture**
 
 <p align="center">
-  <img src=<img width="1536" height="1024" alt="Retail sales data warehouse architecture" src="https://github.com/user-attachments/assets/2ffdf7cd-7bb5-43de-9fe5-87de75d04d7c" />
->
+  <img src="https://github.com/user-attachments/assets/2ffdf7cd-7bb5-43de-9fe5-87de75d04d7c" alt="Retail Sales Data Warehouse Architecture" width="900">
 </p>
 The data warehouse is organized into three layers:
 
