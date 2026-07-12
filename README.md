@@ -1,13 +1,11 @@
-Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting
+##Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting
 ## 📖 About the Project
 
-The **Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting** is an end-to-end data engineering and analytics project that transforms raw retail sales data into meaningful business insights and future sales predictions.
+The **Retail Sales Data Warehouse with Machine Learning-Based Demand Forecasting** is an end-to-end **Data Engineering and Business Intelligence** project that transforms raw retail sales data into actionable business insights and accurate sales forecasts.
 
-The project follows the **Medallion Architecture (Bronze, Silver, and Gold)** to build a scalable data warehouse using **Microsoft SQL Server**. Raw retail datasets are extracted from CSV files, cleaned and transformed through Python-based ETL pipelines, and modeled into an **Enterprise Star Schema** for efficient reporting and analytics.
+The project implements the **Medallion Architecture (Bronze, Silver, Gold)** using **Microsoft SQL Server**, Python-based **ETL pipelines**, an **Enterprise Star Schema**, and **Power BI** dashboards for analytics. A **Random Forest Regression** model is used to forecast future weekly sales, supporting data-driven business decision-making.
 
-Interactive dashboards are developed in **Microsoft Power BI** to visualize key business metrics, including sales performance, customer behavior, product analysis, and regional trends. Additionally, a **Random Forest Regression** machine learning model is implemented to forecast future weekly sales, enabling data-driven business decisions.
-
-This project demonstrates practical implementation of **Data Engineering, ETL Pipelines, Data Warehousing, Business Intelligence, SQL Development, and Machine Learning**, making it a comprehensive portfolio project for aspiring Data Engineers and Data Analysts.
+This project showcases practical skills in **Data Engineering, ETL Development, SQL, Data Warehousing, Power BI, and Machine Learning**.
 
 ---
 ## 🏗️ Project Architecture
