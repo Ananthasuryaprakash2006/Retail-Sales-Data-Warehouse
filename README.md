@@ -28,7 +28,7 @@ The processed data is then utilized by two major components:
 - **Power BI Dashboards** provide interactive visualizations for executive reporting, customer and product analytics, regional sales analysis, and business performance monitoring.
 - **Machine Learning Pipeline** applies a Random Forest Regression model to preprocess data, train and evaluate the model, and generate future weekly sales forecasts.
 
-This architecture enables efficient data processing, scalable analytics, accurate forecasting, and meaningful business insights, supporting strategic decision-making across retail operations.
+This architecture provides a scalable foundation for data warehousing, business intelligence, and machine learning-based sales forecasting.
 ---
 ## 📖 Project Overview
 
@@ -40,31 +40,37 @@ This project demonstrates practical skills in **Data Engineering, ETL Developmen
 ---
 ## 🛠️ Important Links & Tools
 
-The following tools, datasets, and technologies were used to build this project.
+The following tools, datasets, and resources were used to build this project:
 
-| 📊 Global Superstore Dataset | https://www.kaggle.com/datasets/vivek468/superstore-dataset-final |
-| 🛒 Walmart Sales Forecast Dataset | https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast |
-| 🗄️ Microsoft SQL Server | https://www.microsoft.com/en-us/sql-server/sql-server-downloads |
-| 💻 SQL Server Management Studio (SSMS) | https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms |
-| 🐍 Python | https://www.python.org/ |
-| 📦 Pandas | https://pandas.pydata.org/ |
-| 🔢 NumPy | https://numpy.org/ |
-| 🤖 Scikit-learn | https://scikit-learn.org/stable/ |
-| 📈 Microsoft Power BI Desktop | https://powerbi.microsoft.com/desktop/ |
-| 📒 Jupyter Notebook | https://jupyter.org/ |
-| 🔀 Git | https://git-scm.com/ |
-| 🌐 GitHub | https://github.com/ |
-| 🎨 Draw.io | https://app.diagrams.net/ |
+- **[Global Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final):** Retail sales dataset used for building the data warehouse and business analytics.
+
+- **[Walmart Sales Forecast Dataset](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast):** Dataset used for machine learning-based weekly sales forecasting.
+
+- **[Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Database platform used to build the Retail Sales Data Warehouse.
+
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms):** Tool used for database development, querying, and management.
+
+- **[Python](https://www.python.org/):** Programming language used for ETL pipeline development and machine learning.
+
+- **[Pandas](https://pandas.pydata.org/):** Library used for data preprocessing, cleaning, and transformation.
+
+- **[NumPy](https://numpy.org/):** Library used for numerical computations and data manipulation.
+
+- **[Scikit-learn](https://scikit-learn.org/stable/):** Machine learning library used to build the Random Forest Regression model.
+
+- **[Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/):** Business Intelligence tool used for creating interactive dashboards.
+
+- **[Jupyter Notebook](https://jupyter.org/):** Development environment used for data exploration and experimentation.
+
+- **[Git & GitHub](https://github.com/):** Version control and source code hosting platform.
+
+- **[Draw.io](https://app.diagrams.net/):** Tool used to design the project architecture, ETL workflow, and Star Schema diagrams.
 ---
 ## 🚀 Project Requirements
 
 ### 🎯 Objective
 
 The objective of this project is to design and develop a modern **Retail Sales Data Warehouse** that integrates retail sales data from multiple datasets into a centralized analytical platform. The project enables business intelligence reporting, sales analysis, and machine learning-based demand forecasting to support data-driven decision-making.
-
----
-
-## 🚀 Project Requirements
 
 ### 📋 Functional Requirements
 
